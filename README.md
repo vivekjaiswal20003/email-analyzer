@@ -85,7 +85,7 @@ Next, you'll need to tell the backend how to connect to your MongoDB. Create a `
 ```
 MONGO_URI="your_mongodb_connection_string_here"
 ```
-(e.g., `MONGO_URI="mongodb+srv://user:password@cluster0.xxxx.mongodb.net/email-analyzer?retryWrites=true&w=majority"`)
+(e.g., `MONGO_URL"`)
 
 Now, fire up the backend server:
 ```bash
